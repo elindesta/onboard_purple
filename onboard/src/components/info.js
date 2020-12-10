@@ -1,7 +1,9 @@
 import React from "react";
 
 function Info(props) {
-    return <h1></h1>
+    return <div className="info">
+
+    </div>
 }
 
 export default Info;

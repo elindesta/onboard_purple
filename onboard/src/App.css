@@ -15,12 +15,14 @@
 
 .menu{
   background-color: #fa6400;
+  
 
 }
 
 nav{
-
+  height: 10vh;
 }
+
 
 nav ul{
   display: flex;
@@ -40,9 +42,9 @@ nav ul li a{
 }
 
 
-/* HOME */
+/* HOME PAGE*/
 
-.homePage{
+.section1{
   background: url(./img/kyh-hero.jpg);
  background-size: cover;
   width: 100vw;
@@ -56,6 +58,11 @@ nav ul li a{
 .videoContainer{
 margin-left: 4rem;
 color: white;
+}
+
+.videoContainer h1{
+  display: flex;
+  justify-content: center;
 }
 
 .videoPlaceholder{
@@ -75,3 +82,53 @@ color: white;
   margin-right: 4rem;
   color: white;
 }
+
+
+/* INFORMATION PAGE*/
+
+.info{
+  background-image: url(./img/kyh-hero.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+/* RULE PAGE */
+
+.rules{
+  background-image: url(./img/kyh-hero.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+/* FORUM */
+
+.forum{
+  background-image: url(./img/kyh-hero.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+/* FAQ */
+
+.faq{
+  background-image: url(./img/kyh-hero.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+/* CONTACT US */
+
+.contact{
+  background-image: url(./img/kyh-hero.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+
+
+

@@ -1,7 +1,7 @@
 import React from "react";
 
 function Faq(props) {
-    return <div>
+    return <div className="faq">
         
     </div>
 }

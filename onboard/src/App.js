@@ -13,6 +13,7 @@ import Rules from "./components/rules";
 import Forum from "./components/forum";
 import Faq from "./components/faq";
 import Contact from "./components/contact";
+import Logo from "./img/kyh-logo.png";
 
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
       <div className="menu">
         <nav>
           <ul>
+          <img src={Logo}></img>
             <li>
               <Link to="/">Hem</Link>
 

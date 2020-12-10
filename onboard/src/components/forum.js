@@ -1,7 +1,7 @@
 import React from "react";
 
 function Forum(props) {
-    return <div>
+    return <div className="forum">
         
     </div>
 }
