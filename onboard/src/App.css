@@ -1,0 +1,77 @@
+/* FONTS */
+@font-face{
+  font-family: "SourceSansPro-Regular";
+  src: url(./fonts/SourceSansPro/SourceSansPro-Regular.ttf)
+}
+
+@font-face{
+  font-family:"SourceSansPro-Bold";
+  src: local('SourceSansPro-Bold'),url(./fonts/SourceSansPro/SourceSansPro-Bold.ttf);
+}
+/* HEADER */
+*{
+  margin:0;
+}
+
+.menu{
+  background-color: #fa6400;
+
+}
+
+nav{
+
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+nav ul li{
+  list-style-type: none;
+  margin: 2rem;
+  font-family: SourceSansPro-Bold;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* HOME */
+
+.homePage{
+  background: url(./img/kyh-hero.jpg);
+ background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videoContainer{
+margin-left: 4rem;
+color: white;
+}
+
+.videoPlaceholder{
+  background-color: black;
+  min-width: 35vw;
+  min-height: 35vh;
+}
+
+.videoPlaceholder h1{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.textContainer{
+  width: 40vw;
+  margin-right: 4rem;
+  color: white;
+}
