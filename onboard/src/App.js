@@ -14,6 +14,7 @@ import Forum from "./components/forum";
 import Faq from "./components/faq";
 import Contact from "./components/contact";
 import Logo from "./img/kyh-logo.png";
+import Courses from "./components/courses";
 
 
 export default function App() {
@@ -51,7 +52,9 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          
+        <Route path="/courses">
+            <Courses />
+          </Route>
           <Route path="/contact">
             <Contact />
           </Route>

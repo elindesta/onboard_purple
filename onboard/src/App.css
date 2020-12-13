@@ -129,6 +129,58 @@ color: white;
   background-size: cover;
 }
 
+/* COURSES */
+
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgrey;
+}
+
+.card{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ width: 50vw;
+ height: 60vh;
+ background-color: whitesmoke;
+ border-radius: 20px;
+  box-shadow: 0px 6px 30px 8px #3333;
+}
+
+.textbox{
+  background-color: white;
+  width: 30vw;
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ border-radius: 10px 0 0 10px;
+}
+
+
+
+.engineering{
+  width: 50%;
+  height: 60vh;
+  border-radius: 0 10px 10px 0;
+}
+
+.textbox h1{
+  font-family: sourcesanspro-bold;
+  font-size: 32px;
+}
+
+.textbox p{
+  margin: 3rem;
+  margin-top: -15rem;
+  font-family: sourcesanspro-regular;
+  font-size: 22px;
+}
 
 
 
