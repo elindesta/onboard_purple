@@ -10,7 +10,8 @@ function Courses(props) {
         <div className="textbox">
             <h1>Samhällsbyggnad</h1>
             <p>Är du intresserad av att förändra samhället genom miljö, energi, samhällsbyggnad och fastigheter? Se våra utbildningar inom samhällsbyggnad här!
-</p>
+</p>        
+            <button className="buttonEngineering">Våra utbildningar</button>
         </div>
         <img className="engineering" alt="" src={Engineering}></img>
         </div>
@@ -23,6 +24,7 @@ function Courses(props) {
         <div className="textboxIT">
             <h1>IT</h1>
             <p>Är du intresserad av programmering, datorer och att arbeta i en växande och kreativ bransch? Titta på våra IT-utbildningar här!</p>
+            <button className="buttonIt">Våra utbildningar</button>
         </div>
         </div>
     </section>
@@ -32,7 +34,8 @@ function Courses(props) {
         <div className="textbox">
             <h1>Ekonomi</h1>
             <p>Har du siffersinne, gillar ordning och reda och är intresserad av e-handel? Här hittar du utbildningar inom det området!
-</p>
+</p>        
+            <button className="buttonEkonomi">Våra utbildningar</button>
         </div>
         <img className="ekonomi" alt="" src={Ekonomi}></img>
         </div>

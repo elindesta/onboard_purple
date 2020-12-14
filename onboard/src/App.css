@@ -176,8 +176,8 @@ color: white;
 }
 
 .textbox p{
-  margin: 3rem;
-  margin-top: -15rem;
+  margin: 2rem;
+  margin-top: -5rem;
   font-family: sourcesanspro-regular;
   font-size: 22px;
 }
@@ -211,10 +211,49 @@ color: white;
 }
 
 .textboxIT p{
-  margin: 3rem;
-  margin-top: -15rem;
+  margin: 2rem;
+  margin-top: -5rem;
   font-family: sourcesanspro-regular;
   font-size: 22px;
+}
+
+.buttonIt{
+  width: 216px;
+  height: 49px;
+  background: linear-gradient(30deg, #85ccff 50%, #3110fd);
+  color: white;
+  font-family: SourceSansPro-Bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.buttonEkonomi{
+  width: 216px;
+  height: 49px;
+  background: linear-gradient(30deg, #85ffae 50%, #10fd52);
+  color: white;
+  font-family: SourceSansPro-Bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.buttonEngineering{
+  width: 216px;
+  height: 49px;
+  background: linear-gradient(30deg, #ff8585 50%, #fd1010);
+  color: white;
+  font-family: SourceSansPro-Bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
 }
 
 

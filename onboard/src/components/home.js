@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import Engineering from "../img/engineering.jpg"
 
 function Home(props) {
     return <div className="homePage">
