@@ -23,7 +23,7 @@ export default function App() {
       <div className="menu">
         <nav>
           <ul>
-          <img src={Logo}></img>
+          <img alt="" src={Logo}></img>
             <li>
               <Link to="/">Hem</Link>
 

@@ -182,5 +182,39 @@ color: white;
   font-size: 22px;
 }
 
+.it{
+    width: 50%;
+    height: 60vh;
+    border-radius: 10px 0 0 10px;
+}
+
+.ekonomi{
+  width: 50%;
+  height: 60vh;
+  border-radius: 0 10px 10px 0;
+}
+
+.textboxIT{
+  background-color: white;
+  width: 30vw;
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ border-radius: 0 10px 10px 0;
+}
+
+.textboxIT h1{
+  font-family: sourcesanspro-bold;
+  font-size: 32px;
+}
+
+.textboxIT p{
+  margin: 3rem;
+  margin-top: -15rem;
+  font-family: sourcesanspro-regular;
+  font-size: 22px;
+}
 
 
