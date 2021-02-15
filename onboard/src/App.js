@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,15 +15,20 @@ import Faq from "./components/faq";
 import Contact from "./components/contact";
 import Logo from "./img/kyh-logo.png";
 import Courses from "./components/courses";
+import SignIn from "./components/signIn";
+
+function LogIn() {
+  window.location.href = "signin";
+}
 
 
 export default function App() {
   return (
     <Router>
       <div className="menu">
-        <nav>
+        <nav className="navBar">
+        <img className="logo" alt="" src={Logo}></img>
           <ul>
-          <img alt="" src={Logo}></img>
             <li>
               <Link to="/">Hem</Link>
 
@@ -46,12 +51,18 @@ export default function App() {
             <li>
               <Link to="/contact">Kontakta Oss</Link>
             </li>
+            <li>
+              <button className="signInBtn" onClick={LogIn}>Logga In</button>
+            </li>
           </ul>
         </nav>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
+          <Route path="/signin">
+            <SignIn />
+          </Route>
         <Route path="/courses">
             <Courses />
           </Route>
