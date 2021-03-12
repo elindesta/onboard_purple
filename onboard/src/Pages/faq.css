@@ -1,0 +1,19 @@
+.sectionFaq {
+    justify-self: center;
+    padding: 2% 25%;
+
+}
+
+
+.square {
+    width: 30px;
+    height: 30px;
+    background: red;
+    display: inline-block;
+    margin-right: 0px;
+  }
+  .sqLine{
+      display: inline-block; 
+      width: 96%;
+   
+  }

@@ -1,259 +1,243 @@
-/* FONTS */
-@font-face{
-  font-family: "SourceSansPro-Regular";
-  src: url(./fonts/SourceSansPro/SourceSansPro-Regular.ttf)
-}
+/* .App {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   } */
 
-@font-face{
-  font-family:"SourceSansPro-Bold";
-  src: local('SourceSansPro-Bold'),url(./fonts/SourceSansPro/SourceSansPro-Bold.ttf);
-}
-/* HEADER */
-*{
-  margin:0;
-}
+   /* Navbar */
 
-.menu{
-  background-color: #fa6400;
+   /*  .navbar {
+  display: inline;
+  justify-content: start;
+  margin: 1em 2em 2em 2em;
+  padding: 0 1em 1em 1em;
+  border-bottom: 1px solid #995b5b;
+  color: #222222;
+  font-family: cursive;
+}
+.nav-header {
+  font-size: 1.5em;
+}
+  */
+
+  .menu{
+    background-color: #fa6400;
+    width: 100%;
+    }
+  
+  nav{
+    height: 10vh;
+  }
+  
+  nav ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+  }
+  .logout{
+    width: 8%;
+    height:5%;
+    background-color: blue;
+    
+  }
+  
+  nav ul li{
+    list-style-type: none;
+    margin: 2rem;
+    font-family: SourceSansPro-Bold;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
   
 
-}
+   /* Information Page */
+   
+.lonekonsult_section_align{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 15px;
+  
+  }
+  .lonekonsult_section{
+    background-color: #FF6205;
+    opacity: 45%;
+    width: 1000px;
+    height: 100px; 
+    
+  }
+  .lonekonsult_button_align{
+    position: absolute;
+    
+    margin-bottom: -15px;
+  }
+  .lonekonsult_button{
+    height: 60px;
+    width: 300px;
+    background-color: #0FDC48;
+    border-radius: 100px;
+  }
+  .lonekonsult_text{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+  }
+  .centertext{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .paragraph1{
+    color: #55545A;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-left: 40px;
+    
+   
+  }
+  .paragraph_div{
+    max-width: 500px;
+    height: 150px;
+    margin-top: 100px;
+    
+    
+    
+  }
+  .colored_paragraph{
+    color: #0FDC48;
+  }
+  .wrapper{
+    max-width: auto;
+    height:400px;
+  }
+  .loptopicon{
+    width: 71px;
+    height: 71px;
+  }
+  .bookicon{
+    width: 71px;
+    height: 71px;
+  }
+  .hourglasicon{
+    width: 69px;
+    height: 69px;
+  }
+  .align_icons{
+    max-width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .icondiv{
+    margin-left:200px;
+    margin-right: 200px;
+    width: 100%;
+  }
+  .teagreen_section{
+    width: 100%;
+    height: 500px;
+  }
+  .teagreen_div{
+    width: 100%;
+    height: 500px;
+    background-color: #E7FFF3;
+  }
+  .studier_header{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-top: 30px;
+  }
+  .icon_text{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+  .icon_text_specialle{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+   
 
-nav{
-  height: 10vh;
-}
+  /* Faq Page */
 
+  .sectionFaq {
+    justify-self: center;
+    padding: 2% 25%;
 
-nav ul{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-nav ul li{
-  list-style-type: none;
-  margin: 2rem;
-  font-family: SourceSansPro-Bold;
-}
-
-nav ul li a{
-  text-decoration: none;
-  color: white;
-}
-
-
-/* HOME PAGE*/
-
-.section1{
-  background: url(./img/kyh-hero.jpg);
- background-size: cover;
-  width: 100vw;
-  height: 100vh;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.videoContainer{
-margin-left: 4rem;
-color: white;
-}
-
-.videoContainer h1{
-  display: flex;
-  justify-content: center;
-}
-
-.videoPlaceholder{
-  background-color: black;
-  min-width: 35vw;
-  min-height: 35vh;
-}
-
-.videoPlaceholder h1{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-.textContainer{
-  width: 40vw;
-  margin-right: 4rem;
-  color: white;
-}
-
-
-/* INFORMATION PAGE*/
-
-.info{
-  background-image: url(./img/kyh-hero.jpg);
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-}
-
-/* RULE PAGE */
-
-.rules{
-  background-image: url(./img/kyh-hero.jpg);
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-}
-
-/* FORUM */
-
-.forum{
-  background-image: url(./img/kyh-hero.jpg);
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-}
-
-/* FAQ */
-
-.faq{
-  background-image: url(./img/kyh-hero.jpg);
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-}
-
-/* CONTACT US */
-
-.contact{
-  background-image: url(./img/kyh-hero.jpg);
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-}
-
-/* COURSES */
-
-.container{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: lightgrey;
-}
-
-.card{
-  display:flex;
-  justify-content: center;
-  align-items: center;
- width: 50vw;
- height: 60vh;
- background-color: whitesmoke;
- border-radius: 20px;
-  box-shadow: 0px 6px 30px 8px #3333;
-}
-
-.textbox{
-  background-color: white;
-  width: 30vw;
-  height: 60vh;
-  display: flex;
-  flex-wrap: wrap;
- align-items: center;
- justify-content: center;
- border-radius: 10px 0 0 10px;
 }
 
 
+.square {
+    width: 30px;
+    height: 30px;
+    background: red;
+    display: inline-block;
+    margin-right: 0px;
+  }
+  .sqLine{
+      display: inline-block; 
+      width: 96%;
+   
+  }
 
-.engineering{
-  width: 50%;
-  height: 60vh;
-  border-radius: 0 10px 10px 0;
+
+
+ /*  LoginPage */
+
+ 
+.LogoClass{
+	margin-top: 25%;
+	margin-bottom: 1%;
+	width: 10%;
 }
-
-.textbox h1{
-  font-family: sourcesanspro-bold;
-  font-size: 32px;
+.login-buttons {
+	/* display: flex;
+	flex-direction: column; */
+	
+		width: 100%;
+		 display: flex; 
+		flex-direction: column;
+		align-items: center; 
+	   
 }
-
-.textbox p{
-  margin: 2rem;
-  margin-top: -5rem;
-  font-family: sourcesanspro-regular;
-  font-size: 22px;
+.login-provider-button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20em;
+	height: 3em;
+	border: 1px solid #995b5b;
+	margin-top:1%;
+	border-radius: 5px;
+	margin-bottom: 1em;
+	background-color: orange;
+	color: #222222;
+	cursor: pointer;
+	transition: transform 0.5s ease-in-out;
 }
-
-.it{
-    width: 50%;
-    height: 60vh;
-    border-radius: 10px 0 0 10px;
+.login-provider-button:hover{
+	transform: scale(1.05);
 }
-
-.ekonomi{
-  width: 50%;
-  height: 60vh;
-  border-radius: 0 10px 10px 0;
+.login-provider-button img{
+	width: 1.6em;
+	height: 1.6em;
+	margin-right: 0.5em;
 }
-
-.textboxIT{
-  background-color: white;
-  width: 30vw;
-  height: 60vh;
-  display: flex;
-  flex-wrap: wrap;
- align-items: center;
- justify-content: center;
- border-radius: 0 10px 10px 0;
-}
-
-.textboxIT h1{
-  font-family: sourcesanspro-bold;
-  font-size: 32px;
-}
-
-.textboxIT p{
-  margin: 2rem;
-  margin-top: -5rem;
-  font-family: sourcesanspro-regular;
-  font-size: 22px;
-}
-
-.buttonIt{
-  width: 216px;
-  height: 49px;
-  background: linear-gradient(30deg, #85ccff 50%, #3110fd);
-  color: white;
-  font-family: SourceSansPro-Bold;
-  font-size: 18px;
-  border: none;
-  border-radius: 25px;
-  outline: none;
-  cursor: pointer;
-}
-
-.buttonEkonomi{
-  width: 216px;
-  height: 49px;
-  background: linear-gradient(30deg, #85ffae 50%, #10fd52);
-  color: white;
-  font-family: SourceSansPro-Bold;
-  font-size: 18px;
-  border: none;
-  border-radius: 25px;
-  outline: none;
-  cursor: pointer;
-}
-
-.buttonEngineering{
-  width: 216px;
-  height: 49px;
-  background: linear-gradient(30deg, #ff8585 50%, #fd1010);
-  color: white;
-  font-family: SourceSansPro-Bold;
-  font-size: 18px;
-  border: none;
-  border-radius: 25px;
-  outline: none;
-  cursor: pointer;
-}
-
-
