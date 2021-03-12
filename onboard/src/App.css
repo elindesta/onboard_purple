@@ -26,9 +26,6 @@
   justify-content: space-around;
 }
 
-.logo{
-
-}
 
 
 nav ul{
@@ -113,18 +110,13 @@ color: white;
 .section2{
   height: 100vh;
   width: 100vw;
-  background-color: #E5E5E5;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-content: center;
 
 }
 
-.section2 div{
-  height: 156px;
-  width: 992px;
-  background-color: #FE6205;
-}
 
 .homePlaceholder{
   height: 311px;
@@ -332,5 +324,121 @@ footer{
 .signIn .menu{
   display: none;
 }
+.lonekonsult_section_align{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 15px;
 
+}
+.lonekonsult_section{
+  background-color: #FF6205;
+  opacity: 45%;
+  width: 1000px;
+  height: 100px; 
+  
+}
+.lonekonsult_button_align{
+  position: absolute;
+  
+  margin-bottom: -15px;
+}
+.lonekonsult_button{
+  height: 60px;
+  width: 300px;
+  background-color: #0FDC48;
+  border-radius: 100px;
+}
+.lonekonsult_text{
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  
+}
+.centertext{
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  
+}
+.paragraph1{
+  color: #55545A;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding-left: 40px;
+  
+ 
+}
+.paragraph_div{
+  max-width: 500px;
+  height: 150px;
+  margin-top: 100px;
+  
+  
+  
+}
+.colored_paragraph{
+  color: #0FDC48;
+}
+.wrapper{
+  max-width: auto;
+  height:400px;
+}
+.loptopicon{
+  width: 71px;
+  height: 71px;
+}
+.bookicon{
+  width: 71px;
+  height: 71px;
+}
+.hourglasicon{
+  width: 69px;
+  height: 69px;
+}
+.align_icons{
+  max-width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.icondiv{
+  margin-left:200px;
+  margin-right: 200px;
+  width: 100%;
+}
+.teagreen_section{
+  width: 100%;
+  height: 500px;
+}
+.teagreen_div{
+  width: 100%;
+  height: 500px;
+  background-color: #E7FFF3;
+}
+.studier_header{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-left: 20px;
+  padding-top: 30px;
+}
+.icon_text{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  
+}
+.icon_text_specialle{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  
+}
 
