@@ -1,0 +1,47 @@
+/*  .navbar {
+  display: inline;
+  justify-content: start;
+  margin: 1em 2em 2em 2em;
+  padding: 0 1em 1em 1em;
+  border-bottom: 1px solid #995b5b;
+  color: #222222;
+  font-family: cursive;
+}
+.nav-header {
+  font-size: 1.5em;
+}
+  */
+
+  .menu{
+    background-color: #fa6400;
+    width: 100%;
+    }
+  
+  nav{
+    height: 10vh;
+  }
+  
+  nav ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+  }
+  .logout{
+    width: 8%;
+    height:5%;
+    background-color: blue;
+    
+  }
+  
+  nav ul li{
+    list-style-type: none;
+    margin: 2rem;
+    font-family: SourceSansPro-Bold;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  
