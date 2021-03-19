@@ -3,17 +3,16 @@ import { useState, useEffect } from 'react';
 import './filterprogram.css';
 
 import program from '../data/programData';
-import { data } from 'jquery';
 
 
 
-const ItProgram = program.filter(program => program.type === 'IT');
+const itProgram = program.filter(program => program.type === 'IT');
 
-const SamProgram = program.filter(program => program.type === 'Samhällsbyggnad');
+const samProgram = program.filter(program => program.type === 'Samhällsbyggnad');
 
-const AllPrograms = program.filter(program => program.type);
+const allPrograms = program.filter(program => program.type);
 
-const EconomyProgram = program.filter(program => program.type === 'Ekonomi');
+const economyProgram = program.filter(program => program.type === 'Ekonomi');
 
 
 function FilterProgram(){
@@ -31,7 +30,7 @@ function FilterProgram(){
             
             <div className="btnContainer">
             <button className="btn" onClick={() => setCourse(<div id="list">
-                {AllPrograms.map(data => {
+                {allPrograms.map(data => {
                     return(<div id="card">
                         <h2>{data.name}</h2>
                         <p>{data.location.join(", ")}</p>
@@ -40,7 +39,7 @@ function FilterProgram(){
                 })}
             </div>)}>Alla</button>
             <button className="btn" onClick={() => setCourse(<div id="list">
-                {EconomyProgram.map(data => {
+                {economyProgram.map(data => {
                     return(<div id="card">
                         <h2>{data.name}</h2>
                         <p>{data.location.join(", ")}</p>
@@ -49,7 +48,7 @@ function FilterProgram(){
                 })}
             </div>)}>Ekonomi</button>
             <button className="btn" onClick={() => setCourse(<div id="list">
-                 {ItProgram.map(data => {
+                 {itProgram.map(data => {
                     return(
                     <div id="card">
                     <h2>{data.name}</h2>
@@ -60,7 +59,7 @@ function FilterProgram(){
             </div>)}>IT</button>
 
             <button className="btn" onClick={() => setCourse(<div id="list">
-                 {SamProgram.map(data => {
+                 {samProgram.map(data => {
                     return(<div id="card">
                     <h2>{data.name}</h2>
                     <p>{data.location.join(", ")}</p>
