@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import filterCourses from './filterCourse';
 
 function Home(props) {
     return <div className="homePage">

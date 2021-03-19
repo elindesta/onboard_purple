@@ -1,0 +1,50 @@
+.btnContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #e7e7e7;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+.dashboard-text{
+    margin: 5rem;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+/* .filterdCourses{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: w;
+}
+
+.filterdCourses span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 350px;
+    width: 350px;
+    background-color: orange;
+    margin: 3rem;
+}
+
+.filterdCourses h2{
+    font-size: 18px;
+}
+
+ p{
+    font-size: 14px;
+} */

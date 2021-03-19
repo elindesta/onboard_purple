@@ -2,7 +2,7 @@
 
 /* import dotenv from 'dotenv' */
 
-import * as firebase from "firebase/app";
+import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
 import Login from "../Login";
@@ -30,8 +30,7 @@ const firebaseConfig = ({
 });
 firebase.initializeApp(firebaseConfig);
 
-export const auth = firebase.auth();
-const googleProvider = new firebase.auth.GoogleAuthProvider()
+
 export const signInWithGoogle = () => {
   auth.signInWithPopup(googleProvider).then((res) => {
     // user object
@@ -48,3 +47,6 @@ export const logOut = () => {
     console.log(error.message)
   })
 }
+
+export const auth = firebase.auth();
+const googleProvider = new firebase.auth.GoogleAuthProvider()

@@ -4,9 +4,22 @@ import { UserContext } from "../providers/UserProvider";
 import { Redirect } from "react-router-dom";
 import { logOut } from "../services/firebase";
 import Navbar from "./Navbar";
+
+import { act } from "react-dom/test-utils";
+
+import FilterProgram from '../components/filterProgram';
+
+const courses = []
+
 export default function Hem() {
+    
     const user = useContext(UserContext);
     const [redirect, setredirect] = useState(null);
+
+    // const [active, setActive] = useState(null);
+
+    // const setEconomy = ()
+    
 
     useEffect(() => {
         if (!user) {
@@ -18,9 +31,16 @@ export default function Hem() {
     }
 
     return (
+
+        
         <div className="dashboard">
             <Navbar />
-            <h1 className="dashboard-text">Welcome Home</h1>
+            <div className="filterdCourses">
+                    <FilterProgram />
+
+                    
+            </div>
+
 
         </div>
     );
