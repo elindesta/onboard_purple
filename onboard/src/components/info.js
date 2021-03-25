@@ -1,12 +1,11 @@
 import React from "react";
-import laptop from  "./laptop.png";
-import book from  "./book.png";
-import hourglas from  "./hourglas.png";
-import clasroom from "./classroom.png";
-import gmail from "./gmail.png";
-import googlemeet from "./googlemeet.png";
-import messanger from "./messanger.png";
-
+import laptop from  "../IconsInformation/laptop.png";
+import book from  "../IconsInformation/book.png";
+import hourglas from  "../IconsInformation/hourglas.png";
+import clasroom from "../IconsInformation/classroom.png";
+import gmail from "../IconsInformation/gmail.png";
+import googlemeet from "../IconsInformation/googlemeet.png";
+import messanger from "../IconsInformation/messanger.png";
 
 
 
@@ -44,12 +43,17 @@ function Info(props) {
                      Vad behöver du inför dina studier?
                  </h1>
              <div className="align_icons">
-             <div className="icondiv">    
+             <div className="icondiv">
+                     
              <img className="laptopicon" src={laptop} alt=""/>
              <h2 className="icon_text">Dator</h2>
              </div>
              <div className="icondiv"> 
+             <div class="align_icon">
+             <div id="align_bookicon">
              <img className="bookicon" src={book} alt=""/>
+             </div>
+             </div>
              <h2 className="icon_text_specialle">Kurslitteratur</h2>
              </div>
              <div className="icondiv"> 
@@ -81,8 +85,8 @@ function Info(props) {
              <div className="CSN">
              <h1 className="CSN_header">Information om CSN</h1>
              <p className="CSN_paragraph">Som studerande på KYH är du berikad studiemedel på 100%. Så fort skolan registrerat dig som studerande kan du enkelt söka bidrag via CSNs portal!</p>
-              <div className="align_CSN_button">
-              <div className="CSN_button">
+              <div className="align_CSN_button" >
+              <div className="CSN_button" onclick="location.href='https://www.csn.se/';">
                   <div className="center_csn">
                   <h1 className="CSN_button_text">
                       Till CSN
