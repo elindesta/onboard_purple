@@ -18,6 +18,9 @@ export default (props) => {
       }
     });
   }, []);
+// phani, this is not safe due to memory leaks
+// please https://stackoverflow.com/a/55370253/12683933
+
   return (
     <UserContext.Provider value={user}>{props.children}</UserContext.Provider>
   );

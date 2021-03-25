@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.list{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 1px 2px 4px 4px lightgray;
+    border-radius: 4px 4px 4px 4px;
+
+    margin: 5rem;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.btnContainer{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #e7e7e7;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+.color-box{
+display: flex;
+width: 100%;
+}
+
+.orange{
+    width: 70vw;
+    height: 10vh;
+    background-color: #FF6205;
+}
+
+.black{
+    width: 30vw;
+    height: 10vh;
+    background-color: #000;
+}
+
+.welcome-text{
+
+    position: relative;
+    margin: 2rem;
+    left: 2rem;
+}
+
+h2{
+    font-size: 14px;
+    margin: 2rem;
+}
+
+p{
+    font-size: 12px;
+    position: relative;
+    bottom: -50px;
+    margin: 2rem;
+  
+}
+
+#alla{
+    background: linear-gradient(to right, #FFAB5E, #FF6205);
+}
+
+#ekonomi{
+    background-color: #3CEE6E;
+}
+
+#it{
+    background: linear-gradient(to right, #85CCFF, #3110FD80);
+}
+
+#sam{
+    background: linear-gradient(to right, #FF8383, #FD1010);
+}
+
+.courseBtn{
+    background-color: #3CEE6E;
+    width: 127px;
+    height: 37px;
+    border: none;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+
+}
