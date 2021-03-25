@@ -16,9 +16,9 @@ Kod exempel
 
 För att underlätta fortsatt utveckling av detta projekt av andra utvecklare så har vi döpt variabler efter logiska namn. Nedan kommer ett exempel:  Koden nedan visar hur variablerna är döpta i CSN sektionen på sidan Information
 
-  <div className="CSN">
-  "<h1 className="CSN_header">Information om CSN</h1>"
-  <p className="CSN_paragraph">
+  div className="CSN">
+  h1 className="CSN_header">Information om CSN</h1>"
+  p className="CSN_paragraph">
 
 Test av användning
 
