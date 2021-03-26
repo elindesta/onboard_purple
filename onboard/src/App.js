@@ -1,6 +1,6 @@
 import firebase from "firebase";
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
-import React, { Component } from "react";
+import React, { Component } from "react"
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,6 +13,7 @@ import Info from "./components/info";
 import Faq from "./components/faq";
 import Contact from "./components/contact";
 import Logo from "./img/kyh-logo.png";
+import Cards from './components/Cards';
 // import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 
 firebase.initializeApp({
@@ -80,7 +81,7 @@ class App extends Component {
                     <Info />
                   </Route>
                   <Route path="/">
-
+                  <Cards />
                   </Route>
                 </Switch>
               </div>
